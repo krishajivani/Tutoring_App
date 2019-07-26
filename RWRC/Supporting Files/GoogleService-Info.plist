@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>472011132055-2or2ld8n0t8a6jd9r45lbivjsb2q2s53.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.472011132055-2or2ld8n0t8a6jd9r45lbivjsb2q2s53</string>
+	<key>API_KEY</key>
+	<string>AIzaSyANQeMELgULJdJLv4gr2W9sqtGnoQBc_go</string>
+	<key>GCM_SENDER_ID</key>
+	<string>472011132055</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kj.chat2</string>
+	<key>PROJECT_ID</key>
+	<string>summertime-df9bb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>summertime-df9bb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:472011132055:ios:89f5a97c4e502674</string>
+	<key>DATABASE_URL</key>
+	<string>https://summertime-df9bb.firebaseio.com</string>
+</dict>
+</plist>

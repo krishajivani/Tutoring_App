@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="seR-gx-mNc">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Channels View Controller-->
+        <scene sceneID="mzG-S3-qNu">
+            <objects>
+                <viewController storyboardIdentifier="ChannelsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="seR-gx-mNc" customClass="ChannelsViewController" customModule="RWRC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wVD-6b-Jre">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bsa-Ei-0OQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tzT-aj-XMa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2359" y="-12"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vOc-zw-KkE">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LSF-Dq-cGq" customClass="ViewController" customModule="RWRC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xj6-bD-5Au">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Ek-sR-ljd">
+                                <rect key="frame" x="0.0" y="0.0" width="484" height="768"/>
+                                <connections>
+                                    <segue destination="baF-S0-YhC" kind="embed" id="E3K-jT-bn6"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ux-sa-8oj">
+                                <rect key="frame" x="536" y="0.0" width="488" height="768"/>
+                                <connections>
+                                    <segue destination="3Sk-gS-dve" kind="embed" id="Yev-Uh-118"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="3ux-sa-8oj" firstAttribute="leading" secondItem="8xC-bS-Bay" secondAttribute="leading" constant="536" id="7ci-jy-x6j"/>
+                            <constraint firstItem="8xC-bS-Bay" firstAttribute="top" secondItem="4Ek-sR-ljd" secondAttribute="top" constant="20" id="8R8-p9-40A"/>
+                            <constraint firstItem="8xC-bS-Bay" firstAttribute="trailing" secondItem="3ux-sa-8oj" secondAttribute="trailing" id="BqD-f6-8a5"/>
+                            <constraint firstItem="8xC-bS-Bay" firstAttribute="top" secondItem="3ux-sa-8oj" secondAttribute="top" constant="20" id="RNa-Kh-f23"/>
+                            <constraint firstItem="8xC-bS-Bay" firstAttribute="bottom" secondItem="3ux-sa-8oj" secondAttribute="bottom" id="XAr-if-avJ"/>
+                            <constraint firstItem="8xC-bS-Bay" firstAttribute="trailing" secondItem="4Ek-sR-ljd" secondAttribute="trailing" constant="489" id="mso-T1-qCu"/>
+                            <constraint firstItem="4Ek-sR-ljd" firstAttribute="leading" secondItem="8xC-bS-Bay" secondAttribute="leading" id="pPR-vi-Rxi"/>
+                            <constraint firstItem="8xC-bS-Bay" firstAttribute="bottom" secondItem="4Ek-sR-ljd" secondAttribute="bottom" id="ztp-lF-8m9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8xC-bS-Bay"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5bD-Pb-rwv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1699.21875" y="-9.375"/>
+        </scene>
+        <!--Board-->
+        <scene sceneID="jQC-Zd-5Ge">
+            <objects>
+                <viewController storyboardIdentifier="board" useStoryboardIdentifierAsRestorationIdentifier="YES" id="baF-S0-YhC" customClass="board" customModule="RWRC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2yQ-Kw-S4T">
+                        <rect key="frame" x="0.0" y="0.0" width="484" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1dy-G3-X36"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vhS-Qr-aNS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1699" y="834"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="iOO-HR-ie2">
+            <objects>
+                <viewController storyboardIdentifier="ChatViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3Sk-gS-dve" customClass="ChatViewController" customModule="RWRC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="42I-be-pcl">
+                        <rect key="frame" x="0.0" y="0.0" width="488" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="2nT-Yu-fND"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ag-1c-1HU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1200" y="-9"/>
+        </scene>
+    </scenes>
+</document>
